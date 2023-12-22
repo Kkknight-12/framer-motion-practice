@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Keyframes } from "./keyframes";
 
 /* By default, Motion will create an appropriate animation for a snappy
  * animation-transition based on the types of value being animated. For instance,
@@ -75,6 +76,9 @@ export const AnimationTransition = () => {
         When any value in animate changes, the component will automatically
         animate to the updated target
       </motion.p>
+
+      {/*   Keyframes */}
+      <Keyframes />
     </>
   );
 };

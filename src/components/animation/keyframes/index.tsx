@@ -1,5 +1,6 @@
 // @flow
 import { motion } from "framer-motion";
+import { MotionCircleComponent } from "./MotionCircleComponent";
 
 export const Keyframes = () => {
   return (
@@ -27,17 +28,18 @@ export const Keyframes = () => {
         }}
         transition={{
           duration: 2,
-          ease: "easeInOut",
-          // This array specifies at what proportion of the duration each keyframe
+          ease: "easeInOut", // This array specifies at what proportion of the duration each keyframe
           // should occur. For example, the second keyframe will occur at 20% of
           // the total duration, the third at 50%, and so on.
           times: [0, 0.2, 0.5, 0.8, 1],
-          repeat: Infinity,
-          // repeatDelay: There will be a 1-second delay between each repetition of
+          repeat: Infinity, // repeatDelay: There will be a 1-second delay between each repetition of
           // the animation.
           repeatDelay: 1,
         }}
       />
+
+      {/* Circle */}
+      <MotionCircleComponent />
     </>
   );
 };
