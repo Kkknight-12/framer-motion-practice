@@ -1,0 +1,112 @@
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #fafafa;
+    margin: 0;
+}
+
+.menu {
+    filter: drop-shadow(1px 1px 1px #4700b3);
+    width: 300px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #fafafa;
+}
+
+li {
+    color: #6600ff;
+    display: block;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+button {
+    -webkit-appearance: button;
+    background: #fafafa;
+    color: #6600ff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button path {
+    fill: #6600ff;
+}
+
+input {
+    accent-color: #fafafa;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+input[type="number"] {
+    border: 0;
+    border-bottom: 1px dotted #fafafa;
+    color: #fafafa;
+    margin-left: 10px;
+    background: #6600ff;
+    width: 50px;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-bottom: 2px solid #fafafa;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.item {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: #fafafa;
+    color: #6600ff;
+    font-size: 240px;
+    line-height: 260px;
+    font-weight: 700;
+    border-radius: 30px;
+}

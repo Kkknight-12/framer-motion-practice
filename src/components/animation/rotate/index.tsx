@@ -1,10 +1,6 @@
-import viteLogo from "*.svg";
+import viteLogo from "/vite.svg";
 import { motion } from "framer-motion";
 import reactLogo from "../../../assets/react.svg";
-
-{
-  /*  */
-}
 
 export const RotateAnimations = () => {
   return (

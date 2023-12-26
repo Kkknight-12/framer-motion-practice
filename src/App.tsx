@@ -1,8 +1,8 @@
 import "./App.css";
-import { AnimationTransition } from "./components/animation";
+import { Animation } from "./components/animation";
 
 function App() {
-  return <AnimationTransition />;
+  return <Animation />;
 }
 
 export default App;
