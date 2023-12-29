@@ -5,6 +5,9 @@ import { Keyframes } from "./keyframes";
 import { RotateAnimations } from "./rotate";
 import { VariantsComponent } from "./variants";
 import { WhileTapComponent } from "./while-tap";
+import { AnimationPropogationComponent } from "./variants/Propogation.tsx";
+import { AnimationOrchestrationComponent } from "./variants/Orchestration.tsx";
+import { AnimationDynamicComponent } from "./variants/DynamicVariants.tsx";
 
 export const Animation = () => {
   return (
@@ -29,6 +32,15 @@ export const Animation = () => {
 
       {/*   Variants */}
       <VariantsComponent />
+
+      {/*    */}
+      <AnimationPropogationComponent />
+
+      {/*    */}
+      <AnimationOrchestrationComponent />
+
+      {/*    */}
+      <AnimationDynamicComponent />
     </>
   );
 };
